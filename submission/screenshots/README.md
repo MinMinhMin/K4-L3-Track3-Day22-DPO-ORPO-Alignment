@@ -1,6 +1,6 @@
 # Ảnh nộp bài
 
-Các notebook **tự lưu** ảnh vào thư mục này. `make verify` kiểm tra 4 ảnh bắt buộc.
+Các notebook **tự lưu** ảnh vào thư mục này. `make verify` kiểm tra 4 ảnh bắt buộc. Hiện có đủ 4 ảnh bắt buộc và ảnh NB3b `03b-variants.png`.
 
 ## Bắt buộc
 
@@ -22,6 +22,8 @@ Chỉ có "margin tăng" thì chưa đủ: thang điểm yêu cầu thấy riên
 | `07-benchmark-comparison.png` | NB6 — IFEval / GSM8K / Global-MMLU-vi có thanh sai số |
 | `08-grpo-reward.png` | NB7 — reward GRPO theo từng bước |
 | `bonus-beta-sweep.png` | `make beta-sweep` |
+
+Các ảnh bonus NB5, NB6, NB7 và β-sweep hiện chưa có. NB5 cần chụp thủ công output llama.cpp có tên quantization Q4_K_M và câu trả lời; các ảnh NB6, NB7 và β-sweep được notebook/script tự lưu.
 
 ## Lưu ý
 

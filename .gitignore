@@ -49,3 +49,12 @@ hf_cache/
 .idea/
 .vscode/
 *.swp
+
+# Raw Colab export (copied into the canonical paths above); includes local cache files.
+lab22_submission/
+
+# Keep the small SFT config needed by `make verify`, while model weights remain ignored.
+!models/
+!models/sft-merged/
+models/sft-merged/*
+!models/sft-merged/config.json
